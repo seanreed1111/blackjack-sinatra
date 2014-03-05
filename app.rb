@@ -14,7 +14,7 @@ class Blackjack < Sinatra::Application
   end
 
   get "/styles.css" do
-    scss :trebek
+    scss :blackjack
   end
 
 
@@ -29,6 +29,7 @@ class Blackjack < Sinatra::Application
 
   get "/:deck_file" do
     @deck = YAML::load(File.open("data/#{params[:deck_file]}.yml"))
+    @yaml_deck = YamlDeck.new('data/yaml_deck.yml')
     haml :test
   end
 
