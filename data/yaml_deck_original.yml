@@ -1,260 +1,260 @@
 - value: 1
-  rank: A 
+  face: A &#9829;
   suit: hearts
   color: red
-  filename: ace_of_hearts  
+  name: ace_of_hearts  
 - value: 1
-  rank: A 
+  face: A &#9830;
   suit: diamonds
   color: red
-  filename: ace_of_diamonds
+  name: ace_of_diamonds
 - value: 1
-  rank: A
+  face: A &#9827;
   suit: clubs
   color: black
-  filename: ace_of_clubs
+  name: ace_of_clubs
 - value: 1
-  rank: A 
+  face: A &#9824;
   suit: spades
   color: black
-  filename: ace_of_spades
+  name: ace_of_spades
 - value: 2
-  rank: "2" 
+  face: 2 &#9829;
   suit: hearts
   color: red
-  filename: 2_of_hearts
+  name: 2_of_hearts
 - value: 2
-  rank: "2" 
+  face: 2 &#9830;
   suit: diamonds
   color: red
-  filename: 2_of_diamonds
+  name: 2_of_diamonds
 - value: 2
-  rank: "2" 
+  face: 2 &#9827;
   suit: clubs
   color: black
-  filename: 2_of_clubs
+  name: 2_of_clubs
 - value: 2
-  rank: "2" 
+  face: 2 &#9824;
   suit: spades
   color: black
-  filename: 2_of_spades
+  name: 2_of_spades
 - value: 3
-  rank: "3" 
+  face: 3 &#9829;
   suit: hearts
   color: red
-  filename: 3_of_hearts
+  name: 3_of_hearts
 - value: 3
-  rank: "3" 
+  face: 3 &#9830;
   suit: diamonds
   color: red
-  filename: 3_of_diamonds
+  name: 3_of_diamonds
 - value: 3
-  rank: "3" 
+  face: 3 &#9827;
   suit: clubs
   color: black
-  filename: 3_of_clubs
+  name: 3_of_clubs
 - value: 3
-  rank: "3"
+  face: 3 &#9824;
   suit: spades
   color: black
-  filename: 3_of_spades
+  name: 3_of_spades
 - value: 4
-  rank: "4" 
+  face: 4 &#9829;
   suit: hearts
   color: red
-  filename: 4_of_hearts
+  name: 4_of_hearts
 - value: 4
-  rank: "4" 
+  face: 4 &#9830;
   suit: diamonds
   color: red
-  filename: 4_of_diamonds
+  name: 4_of_diamonds
 - value: 4
-  rank: "4" 
+  face: 4 &#9827;
   suit: clubs
   color: black
-  filename: 4_of_clubs
+  name: 4_of_clubs
 - value: 4
-  rank: "4" 
+  face: 4 &#9824;
   suit: spades
   color: black
-  filename: 4_of_spades
+  name: 4_of_spades
 - value: 5
-  rank: "5" 
+  face: 5 &#9829;
   suit: hearts
   color: red
-  filename: 5_of_hearts
+  name: 5_of_hearts
 - value: 5
-  rank: "5" 
+  face: 5 &#9830;
   suit: diamonds
   color: red
-  filename: 5_of_diamonds
+  name: 5_of_diamonds
 - value: 5
-  rank: "5" 
+  face: 5 &#9827;
   suit: clubs
   color: black
-  filename: 5_of_clubs
+  name: 5_of_clubs
 - value: 5
-  rank: "5" 
+  face: 5 &#9824;
   suit: spades
   color: black
-  filename: 5_of_spades
+  name: 5_of_spades
 - value: 6
-  rank: "6" 
+  face: 6 &#9829;
   suit: hearts
   color: red
-  filename: 6_of_hearts
+  name: 6_of_hearts
 - value: 6
-  rank: "6" 
+  face: 6 &#9830;
   suit: diamonds
   color: red
-  filename: 6_of_diamonds
+  name: 6_of_diamonds
 - value: 6
-  rank: "6" 
+  face: 6 &#9827;
   suit: clubs
   color: black
-  filename: 6_of_clubs
+  name: 6_of_clubs
 - value: 6
-  rank: "6" 
+  face: 6 &#9824;
   suit: spades
   color: black
-  filename: 6_of_spades
+  name: 6_of_spades
 - value: 7
-  rank: "7" 
+  face: 7 &#9829;
   suit: hearts
   color: red
-  filename: 7_of_hearts
+  name: 7_of_hearts
 - value: 7
-  rank: "7" 
+  face: 7 &#9830;
   suit: diamonds
   color: red
-  filename: 7_of_diamonds
+  name: 7_of_diamonds
 - value: 7
-  rank: "7" 
+  face: 7 &#9827;
   suit: clubs
   color: black
-  filename: 7_of_clubs
+  name: 7_of_clubs
 - value: 7
-  rank: "7" 
+  face: 7 &#9824;
   suit: spades
   color: black
-  filename: 7_of_spades
+  name: 7_of_spades
 - value: 8
-  rank: "8" 
+  face: 8 &#9829;
   suit: hearts
   color: red
-  filename: 8_of_hearts
+  name: 8_of_hearts
 - value: 8
-  rank: "8" 
+  face: 8 &#9830;
   suit: diamonds
   color: red
-  filename: 8_of_diamonds
+  name: 8_of_diamonds
 - value: 8
-  rank: "8" 
+  face: 8 &#9827;
   suit: clubs
   color: black
-  filename: 8_of_clubs
+  name: 8_of_clubs
 - value: 8
-  rank: "8" 
+  face: 8 &#9824;
   suit: spades
   color: black
-  filename: 8_of_spades
+  name: 8_of _spades
 - value: 9
-  rank: "9" 
+  face: 9 &#9829;
   suit: hearts
   color: red
-  filename: 9_of_hearts
+  name: 9_of_hearts
 - value: 9
-  rank: "9" 
+  face: 9 &#9830;
   suit: diamonds
   color: red
-  filename: 9_of_diamonds
+  name: 9_of_diamonds
 - value: 9
-  rank: "9" 
+  face: 9 &#9827;
   suit: clubs
   color: black
-  filename: 9_of_clubs
+  name: 9_of_clubs
 - value: 9
-  rank: "9" 
+  face: 9 &#9824;
   suit: spades
   color: black
-  filename: 9_of_spades
+  name: 9_of_spades
 - value: 10
-  rank: "10" 
+  face: 10 &#9829;
   suit: hearts
   color: red
-  filename: 10_of_hearts
+  name: 10_of_hearts
 - value: 10
-  rank: "10" 
+  face: 10 &#9830;
   suit: diamonds
   color: red
-  filename: 10_of_diamonds
+  name: 10_of_diamonds
 - value: 10
-  rank: "10" 
+  face: 10 &#9827;
   suit: clubs
   color: black
-  filename: 10_of_clubs
+  name: 10_of_clubs
 - value: 10
-  rank: "10" 
+  face: 10 &#9824;
   suit: spades
   color: black
-  filename: 10_of_spades
+  name: 10_of_spades
 - value: 10
-  rank: J 
+  face: J &#9829;
   suit: hearts
   color: red
-  filename: jack_of_hearts
+  name: jack_of_hearts
 - value: 10
-  rank: J 
+  face: J &#9830;
   suit: diamonds
   color: red
-  filename: jack_of_diamonds
+  name: jack_of_diamonds
 - value: 10
-  rank: J 
+  face: J &#9827;
   suit: clubs
   color: black
-  filename: jack_of_clubs
+  name: jack_of_clubs
 - value: 10
-  rank: J 
+  face: J &#9824;
   suit: spades
   color: black
-  filename: jack_of_spades
+  name: jack_of_spades
 - value: 10
-  rank: Q 
+  face: Q &#9829;
   suit: hearts
   color: red
-  filename: queen_of_hearts
+  name: queen_of_hearts
 - value: 10
-  rank: Q 
+  face: Q &#9830;
   suit: diamonds
   color: red
-  filename: queen_of_diamonds
+  name: queen_of_diamonds
 - value: 10
-  rank: Q 
+  face: Q &#9827;
   suit: clubs
   color: black
-  filename: queen_of_clubs
+  name: queen_of_clubs
 - value: 10
-  rank: Q 
+  face: Q &#9824;
   suit: spades
   color: black
-  filename: queen_of_spades
+  name: queen_of_spades
 - value: 10
-  rank: K 
+  face: K &#9829;
   suit: hearts
   color: red
-  filename: king_of_hearts
+  name: king_of_hearts
 - value: 10
-  rank: K 
+  face: K &#9830;
   suit: diamonds
   color: red
-  filename: king_of_diamonds
+  name: king_of_diamonds
 - value: 10
-  rank: K 
+  face: K &#9827;
   suit: clubs
   color: black
-  filename: king_of_clubs
+  name: king_of_clubs
 - value: 10
-  rank: K 
+  face: K &#9824;
   suit: spades
   color: black
-  filename: king_of_spades
+  name: king_of_spades

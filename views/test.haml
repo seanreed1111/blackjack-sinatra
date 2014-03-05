@@ -1,2 +1,3 @@
 = @yaml_deck.cards.each do |card|
-  %img{:src => "/img/cards/#{card.name}.png", :alt => "#{card.name}", :width =>"50", :height => "50" }
+  %img{:src => "/img/cards/#{card.filename}.png", :alt => "#{card.filename}", :width =>"70", :height => "90" }
+  ="#{card.value}, #{card.rank}, #{card.suit}"

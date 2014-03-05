@@ -1,7 +1,5 @@
 %h1 Blackjack!
-.board
-  .card.col6
-    - @yaml_cards.each do |card|
-      = partial :card, @card=card
-%script{:src=>"http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"}
-%script{:src=>"/trebek.js"}
+%h2 Welcome to Blackjack!
+/ - @yaml_cards.each do |card|
+/   = partial :card, @card=card
+= partial :card, @card = @yaml_cards.first
