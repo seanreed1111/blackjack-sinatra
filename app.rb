@@ -1,5 +1,6 @@
 require "bundler"
 Bundler.require
+require "debugger"
 
 Dir.glob('./lib/*.rb') do |model|
   require model
@@ -7,16 +8,20 @@ end
 
 class Blackjack < Sinatra::Application
 
+  configure do
+    set :root, File.dirname(__FILE__)
+    set :public_folder, 'public'
+  end
+
   get "/" do
     haml :index
   end
 
   get "/blackjack/:num_decks" do
-    deck = Deck.new(:num_decks) #need to rewrite deck class to accept # decks
+    yaml_deck = YamlDeck.new('data\yaml_deck.yml')
+    @yaml_cards = yaml_deck.cards
     haml :blackjack
   end
-
-
 
 
   helpers do
