@@ -1,5 +1,3 @@
-require './Hand'
-
 class Dealer
   attr_reader :hand
 

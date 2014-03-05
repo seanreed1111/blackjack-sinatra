@@ -1,6 +1,3 @@
-require './PlayingCard'
-require './Deck'
-
 class Hand
   attr_reader :cards, :has_ace
   attr_accessor :win

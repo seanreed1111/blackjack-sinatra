@@ -1,6 +1,3 @@
-require './Hand'
-require './PlayingCard'
-
 #the Game class knows whether the player is allowed to double down or split in any situation
 #Game must enforce to player whether that is an allowed or unallowed action
 class Player

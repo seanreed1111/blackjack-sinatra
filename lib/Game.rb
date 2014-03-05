@@ -1,8 +1,3 @@
-require './Player'
-require './Dealer'
-require './Deck'
-
-
 class Game
   attr_reader :computer_players, :human_players, :dealer, :deck, :setup_hash
   def initialize(setup_hash)
