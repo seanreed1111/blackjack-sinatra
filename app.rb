@@ -13,16 +13,28 @@ class Blackjack < Sinatra::Application
     set :public_folder, 'public'
   end
 
-  get "/" do
-    haml :index
+  get "/styles.css" do
+    scss :trebek
   end
 
+
   get "/blackjack/:num_decks" do
-    yaml_deck = YamlDeck.new('data\yaml_deck.yml')
+    yaml_deck = YamlDeck.new('data/yaml_deck.yml')
     @yaml_cards = yaml_deck.cards
     haml :blackjack
   end
 
+
+###############################
+
+  get "/:deck_file" do
+    @deck = YAML::load(File.open("data/#{params[:deck_file]}.yml"))
+    haml :test
+  end
+
+  get "/" do
+    haml :index
+  end
 
   helpers do
 
