@@ -1,5 +1,28 @@
-%h1 Blackjack!
-%h2 Welcome to Blackjack!
-/ - @yaml_cards.each do |card|
-/   = partial :card, @card=card
-= partial :card, @card = @yaml_cards.first
+.container
+  .col6
+    %h1 Blackjack!
+    %h2 Welcome to Blackjack!
+    / - @yaml_cards.each do |card|
+    /   = partial :card, @card=card
+    = partial :card, @card = @yaml_cards.pop
+    = partial :card, @card = @yaml_cards.pop
+    = partial :card, @card = @yaml_cards.pop
+    = partial :card, @card = @yaml_cards.pop
+    %br
+    %br
+    = partial :card, @card = @yaml_cards.pop
+    = partial :card, @card = @yaml_cards.pop
+    = partial :card, @card = @yaml_cards.pop
+    = partial :card, @card = @yaml_cards.pop
+    %br
+    %br
+    = partial :card, @card = @yaml_cards.pop
+    = partial :card, @card = @yaml_cards.pop
+    = partial :card, @card = @yaml_cards.pop
+    = partial :card, @card = @yaml_cards.pop
+    %br
+    %br
+    = partial :card, @card = @yaml_cards.pop
+    = partial :card, @card = @yaml_cards.pop
+    = partial :card, @card = @yaml_cards.pop
+    = partial :card, @card = @yaml_cards.pop
