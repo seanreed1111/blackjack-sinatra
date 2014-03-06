@@ -17,8 +17,9 @@ body {
 .container{
   border: 4px blue solid; 
 }
-.col5 {
-  border: 4px red solid; 
+
+.col-mid-4 {
+  border: 4px green solid; 
 }
 
 /* grid */
@@ -88,6 +89,7 @@ h1 {
   @include border-radius(10px);
   height: 90px;
   position: relative;
+  display: inline-block;
 
   /* events */
   &:hover{
