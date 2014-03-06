@@ -5,12 +5,14 @@ class Hand
     @cards = [] #an array of YamlCard objects
     @has_ace = false
     @win = false
+    @busted = false
   end
 
   def clear
     @cards = []
     @has_ace = false
     @win = false
+    @busted = false
 
   end
 
@@ -45,8 +47,10 @@ class Hand
   end
 
   def busted?
-    self.total > 21 
+    self.total > 21 ? @busted = true : @busted=false
   end
+
+
 
   def has_ace?
     @has_ace

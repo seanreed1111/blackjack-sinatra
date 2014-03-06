@@ -1,7 +1,7 @@
 #the Game class knows whether the player is allowed to double down or split in any situation
 #Game must enforce to player whether that is an allowed or unallowed action
 class Player
-  attr_accessor :name, :cash, :hand, :win
+  attr_accessor :name, :cash, :hand, :win, :bet
 
   def self.count
     ObjectSpace.each_object(self).count
@@ -14,6 +14,8 @@ class Player
     @number_of_splits = 0
     @double_down = false #has player doubled down yet?
     @win = false
+    @cash = 10000 ###hardcoded
+    @bet = 100 ###hardcoded, flat betting
   end
 
   def clear
@@ -24,8 +26,8 @@ class Player
     @win = false
   end
 
-  def winnings(amount=0)
-    @cash += amount
+  def change_cash(amount)
+    @cash += amount #get back your original bet here as well
   end
 
   def has_already_split?

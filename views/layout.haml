@@ -6,10 +6,10 @@
 
 
   %body
-    .container-fluid
+    .container
       = yield
 
   %script{:src=>"http://code.jquery.com/jquery-1.11.0.min.js"}
-  %script{:src=>"http://code.jquery.com/jquery-migrate-1.2.1.min.js"}
   %script{:src=>"/bootstrap311/js/bootstrap.min.js"}
+  %script{:src =>"/js/jquery.transit.min.js"}
   %script{:src =>"/js/test.js"}
