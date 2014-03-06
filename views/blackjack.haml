@@ -2,10 +2,9 @@
 %h2 Welcome to Blackjack!
 
 .board
-  - @yaml_cards[0-7].each_slice(2) do |slice| 
+  - @yaml_cards.each do |card| 
     .row{:id => "player1"}
-      - slice.each do |card|
-        = partial :card, card = yaml_cards.pop
+      = partial :card, @card = card
   .row
   .row{:id => "player2"}
     = partial :card, @card = @yaml_cards.pop

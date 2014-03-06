@@ -16,17 +16,10 @@ body {
 
 .row{
   height: 85px;
-  border: 2px yellow solid;
 }
 
-.container{
-  border: 2px blue solid; 
-}
-
-
-.col-md-6 {
-  border: 2px green solid;
-  display: inline;
+.col-md-6, .col-md-4, .col-md-3, col-md-1, col-md-12 {
+  display: inline-block;
   position: relative;
 }
 

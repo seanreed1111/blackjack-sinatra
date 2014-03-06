@@ -27,7 +27,6 @@ class Game
       @computer_players << Player.new("Computer Player #{Player.count+1}")
     end
 
-    
     nil
   end
 
@@ -68,18 +67,19 @@ class Game
   def run_computer_players!
     #let computer make hit/stand decisions. 
     #need Timeout between each players
-      game.computer_players.each do |player|
-     while (true) do 
-      puts "#{player.name} has #{player.hand.total}."
-      answer = player.computer_play!(self.setup_hash, self.dealer.hand.second_card)
-      print"#{player.name} decides to #{answer}\n"
+    game.computer_players.each do |player|
+      while (true) do 
+        puts "#{player.name} has #{player.hand.total}."
+        answer = player.computer_play!(self.setup_hash, self.dealer.hand.second_card)
+        print"#{player.name} decides to #{answer}\n"
 
-      break if answer == "stand"
+        break if answer == "stand"
 
-      if answer == "hit" || answer == "double"
-        player.hand.hit! @deck   ###hit has to trigger some javascript call##
+        if answer == "hit" || answer == "double"
+          player.hand.hit! @deck   ###hit has to trigger some javascript call##
+        end
+        break if player.hand.busted? || answer == "double"
       end
-      break if player.hand.busted? || answer == "double"
     end
   end
 
@@ -95,7 +95,6 @@ class Game
 
   def run!
     player_setup!(0,7) #hardcoded, no humans and seven bots
-
     first_two_cards!
     run_computer_players! #computer players make hit/stand decision
     run_dealer! #dealer makes hit/stand decisions
@@ -106,9 +105,10 @@ class Game
   def find_winning_hands(players_array)
     players_array.each do |player|
     next if player.hand.busted == true
-    if @dealer.hand.busted == true || (player.hand.total > @dealer.hand.total)
-      player.hand.win = true
-    end 
+      if @dealer.hand.busted == true || (player.hand.total > @dealer.hand.total)
+        player.hand.win = true
+      end 
+    end
   end
 
   def pay_winning_hands(players_array)
