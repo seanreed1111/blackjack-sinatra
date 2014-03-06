@@ -2,7 +2,7 @@ class Hand
   attr_reader :cards, :has_ace
   attr_accessor :win
   def initialize()
-    @cards = [] #an array of PlayingCard objects
+    @cards = [] #an array of YamlCard objects
     @has_ace = false
     @win = false
   end
@@ -16,9 +16,9 @@ class Hand
 
   def total
     count = 0
-    @cards.each do |playingcard|
-      count += playingcard.value 
-    @has_ace = @has_ace || playingcard.is_ace?
+    @cards.each do |yamlcard|
+      count += yamlcard.value 
+    @has_ace = @has_ace || yamlcard.is_ace?
     end
 
     #The playingcard.value of Aces = 1
@@ -52,23 +52,15 @@ class Hand
     @has_ace
   end
 
+  def hit!(deck)
+    @cards << deck.deal
+  end
+
   def double_down
 
   end
 
   def split
 
-  end
-
-  def hit!(deck)
-    @cards << deck.deal
-  end
-
-  def show(&cards)
-    @cards.each do |card|
-      print "#{card.show} "
-    end
-    puts
-    puts "Total is #{player.hand.total}."
   end
 end

@@ -11,6 +11,14 @@ $flatiron-blue: #26c4ff;
 body {
   font-family: 'Overlock', 'Helvetica', 'Arial', sans-serif;
   background: url(/img/tables/1500-by-1500.jpg);
+  border: 4px white solid; 
+}
+
+.container{
+  border: 4px blue solid; 
+}
+.col5 {
+  border: 4px red solid; 
 }
 
 /* grid */
