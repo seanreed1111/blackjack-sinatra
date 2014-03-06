@@ -1,16 +1,18 @@
 %h1 Blackjack!
 %h2 Welcome to Blackjack!
-/ - @yaml_cards.each do |card|
-/   = partial :card, @card=card
-= partial :card, @card = @yaml_cards.pop
-= partial :card, @card = @yaml_cards.pop
-= partial :card, @card = @yaml_cards.pop
-= partial :card, @card = @yaml_cards.pop
-= partial :card, @card = @yaml_cards.pop
-= partial :card, @card = @yaml_cards.pop
-= partial :card, @card = @yaml_cards.pop
-= partial :card, @card = @yaml_cards.pop
-= partial :card, @card = @yaml_cards.pop
-= partial :card, @card = @yaml_cards.pop
-= partial :card, @card = @yaml_cards.pop
-= partial :card, @card = @yaml_cards.pop
+.row
+  = partial :card, @card = @yaml_cards.pop
+  = partial :card, @card = @yaml_cards.pop
+  = partial :card, @card = @yaml_cards.pop
+  = partial :card, @card = @yaml_cards.pop
+.row
+.row
+.row
+.row{:id => "player1"}  
+  = partial :card, @card = @yaml_cards.pop
+.row{:id => "player2"}
+  = partial :card, @card = @yaml_cards.pop
+.row{:id => "player3"}
+  = partial :card, @card = @yaml_cards.pop
+.row{:id => "player4"}
+  = partial :card, @card = @yaml_cards.pop

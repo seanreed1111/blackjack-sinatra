@@ -14,11 +14,17 @@ body {
   border: 4px white solid; 
 }
 
+.row{
+  height: 90px;
+  border: 4px yellow solid;
+
+}
+
 .container{
   border: 4px blue solid; 
 }
 
-.col-mid-4 {
+.col-md-4 {
   border: 4px green solid; 
 }
 
